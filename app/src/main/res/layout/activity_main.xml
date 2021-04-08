@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinh hinh hop"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:text="Rong"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etR"
+                android:layout_weight="4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Dai"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etD"
+                android:layout_weight="4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Cao"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etC"
+                android:layout_weight="4" />
+        </TableRow>
+
+    </TableLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbDt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Dien tich"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbTt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The tich"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/tvKq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KQ"
+        android:textSize="20sp" />
+
+</LinearLayout>
